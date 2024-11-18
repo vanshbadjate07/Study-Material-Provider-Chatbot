@@ -3,7 +3,7 @@ import google.generativeai as ai
 
 app = Flask(__name__)
 
-API_KEY = 'AIzaSyDFFcO5P1mNrPwo1HfT-dgML_A-qmUO9tQ'
+API_KEY = 'YOUR API KEY'
 ai.configure(api_key=API_KEY)
 model = ai.GenerativeModel("gemini-pro")
 chat = model.start_chat()
